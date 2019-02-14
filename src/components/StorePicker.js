@@ -20,7 +20,6 @@ class StorePicker extends React.Component {
                 <button type="submit">Visit Store →</button>
             </form>
         )
-    }
-    
+    } 
 }
 export default StorePicker;
