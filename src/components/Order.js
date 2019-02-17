@@ -30,7 +30,7 @@ class Order extends React.Component {
         }, 0);
 
         return (
-            <div className="order">
+            <div className="order-wrap">
                 <h2>Order</h2>
                 <ul className="order">{orderIds.map(this.renderOrder)}</ul>
                 <div className="total">
