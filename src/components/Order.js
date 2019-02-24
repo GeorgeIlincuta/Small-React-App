@@ -5,9 +5,9 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 class Order extends React.Component {
     static propTypes = {
-        fishes: PropTypes.object,
-        order: PropTypes.object,
-        removeFromOrder: PropTypes.func
+        fishes: PropTypes.object.isRequired,
+        order: PropTypes.object.isRequired,
+        removeFromOrder: PropTypes.func.isRequired
     }
 
     renderOrder = (key) => {
@@ -35,7 +35,9 @@ class Order extends React.Component {
                         </TransitionGroup>
                         kg {fish.name}
                         {formatPrice(count * fish.price)}
-                        <button onClick={() => this.props.removeFromOrder(key)}>&times;</button>
+                        <button onClick={() => this.props.removeFromOrder(key)}>
+                            &times;
+                        </button>
                     </span>
                 </li>
             </CSSTransition>

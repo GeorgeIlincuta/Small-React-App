@@ -9,7 +9,7 @@ import PropTypes from "prop-types";
     imageRef  = React.createRef();
 
     static propTypes = {
-        addFish: PropTypes.func
+        addFish: PropTypes.func.isRequired
     }
 
     createFish = (event) => {
