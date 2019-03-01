@@ -1,6 +1,6 @@
 # Small-React-App
 
-CRUD React app with **firebase** and **local storage**, using **facebook authentification**, **prop-types**, **routes** and react-transition-group for **custom animations**
+**CRUD** React app with **firebase** and **local storage**, using **facebook authentification**, **prop-types**, **routes** and react-transition-group for **custom animations**
 
 Live preview <a href="https://5c782eb5faddb2c3a7e6704a--flamboyant-franklin-690119.netlify.com">here</a>
 
